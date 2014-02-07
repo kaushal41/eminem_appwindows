@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{e01aea01-23b8-4df3-ac4f-8ef18e4410f2}" Title="Eminem" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="" Description="Marshall Bruce Mathers III  better known by his stage name Eminem and by his alter ego Slim Shady, is an American rapper, record producer, songwriter, and actor.Eminem is one of the world&apos;s best-selling music artists and ranked as one of the greatest " Publisher="" PublisherID="{e7d94c95-4681-45a0-a8b4-5df4e482fb9e}">
+    <IconPath IsRelative="true" IsResource="false">Images\Logo-e2c6717e-5ff9-42f1-abdc-bdb215166c74.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING"/>
+      <Capability Name="ID_CAP_SENSORS"/>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
+      <Capability Name="ID_CAP_SPEECH_RECOGNITION" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_LOCATION" />
+      <Capability Name="ID_CAP_PROXIMITY" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MAP" />
+	  <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="View/history_Interestingfacts.xaml" ActivationPolicy="Resume"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="MyDoWapp" TaskName="_default">
+		<TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">Images/Logo-e2c6717e-5ff9-42f1-abdc-bdb215166c74.png</SmallImageURI>
+		  <Title>Eminem</Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">Images/Item-25f823ad-4303-42ce-9f5c-8511e285f007.png</Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">Images/Item-45946de9-a228-4ca6-b656-934ed87f6f32.png</Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">Images/Item-16b44c6d-e7c3-447c-aa5a-a4d18e88dfe7.png</Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">Images/Item-beb288b7-e20a-4f60-bddf-373f2df4c6f7.png</Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">Images/Item-41012ae3-b3b5-42e6-bfc1-9addb64ca152.png</Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">Images/Item-1c902d84-6a46-443d-91f7-3e8924ac4086.png</Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">Images/Item-4da0dc66-33ac-4939-80dd-5fe8051ae32c.png</Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">Images/Item-074fec4f-83c3-414f-adb1-b2055e3e27a7.png</Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">Images/Item-362f8a10-9d6c-46fb-82f2-3a136f805510.png</Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>True</HasLarge>
+		  <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Extension ExtensionName="LockScreen_Notification_IconCount" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Notification_TextField" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
